@@ -51,7 +51,7 @@ Limitations on maximum delivery fee and free delivery for large cart values.
     Sending a POST request to /calculate_delivery_fee via command line:
 
     ``` sh
-    curl -X POST http://127.0.0.1:5000/calculate_delivery_fee \
+    curl -X POST http://127.0.0.1:5000/calculate_delivery_fee 
     -H "Content-Type: application/json" \
     -d '{"cart_value": 790, "delivery_distance": 2235, "number_of_items": 4, "time": "2024-01-15T13:00:00Z"}'
     ```  
